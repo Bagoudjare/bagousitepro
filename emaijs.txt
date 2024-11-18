@@ -1,0 +1,13 @@
+<h2>Nouvelle inscription à la formation</h2>
+
+<p><strong>Prénom :</strong> {{prenom}}</p>
+<p><strong>Nom :</strong> {{nom}}</p>
+<p><strong>Email :</strong> {{email}}</p>
+<p><strong>Téléphone :</strong> {{telephone}}</p>
+<p><strong>Formation choisie :</strong> {{formation}}</p>
+
+{{#if commentaires}}
+    <p><strong>Commentaires :</strong> {{commentaires}}</p>
+{{/if}}
+
+<p>Merci pour votre inscription !</p>
